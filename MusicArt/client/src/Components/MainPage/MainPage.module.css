@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Roboto:wght@500&display=swap');
+
+body{
+  font-family: 'Roboto';
+}
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.navbar{
+  width: 100%;
+  background-color: #2E0052;
+}
+
+.loginButton{
+  background:none;
+  color: white;
+  font-size: medium;
+  border: none;
+  cursor: pointer;
+
+}
+.signupButton{
+  background:none;
+  color: white;
+  font-size: medium;
+  border: none;
+  cursor: pointer;
+}
+
+.mainBody{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.bodyContent{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+
+}
+.buyNow{
+  background-color: #2E0052;
+  border: none;
+  border-radius: 1rem;
+  padding: 0.5rem 2.5rem 0.5rem 2.5rem;
+  color: white;
+  font-family: 'Roboto';
+  cursor: pointer;
+}
+
+.searchBar{
+  width: 100%;
+  border: 3px solid #C8C8C8;
+  border-radius: 1.6rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+.searchBar input{
+  width: 90%;
+  outline: none;
+  border: none;
+  height: 90%;
+  font-size: large;
+}
+
+.sortAndFilter{
+  width: 100%;
+  display: flex;
+  margin-top: 2rem;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.view{
+  display: flex;
+  align-items: center;
+}
+.filters{
+  display: flex;
+  width: 50%;
+  justify-content: center;
+}
+
+.headphoneType{
+  border:none;
+  outline:none;
+  font-family:'Roboto';
+  font-size:small;
+  font-weight: 500;
+  background-color: #D9D9D9;
+  color: black;
+  border-radius: 2rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  margin-right: 1rem;
+}
+.company{
+  border:none;
+  outline:none;
+  font-family:'Roboto';
+  font-size:small;
+  font-weight: 500;
+  background-color: #D9D9D9;
+  color: black;
+  border-radius: 2rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  margin-right: 1rem;
+}
+.color{
+  border:none;
+  outline:none;
+  font-family:'Roboto';
+  font-size:small;
+  font-weight: 500;
+  background-color: #D9D9D9;
+  color: black;
+  border-radius: 2rem;
+  padding: 0.5rem 0rem 0.5rem 1rem;
+  margin-right: 1rem;
+}
+.price{
+  border:none;
+  outline:none;
+  font-family:'Roboto';
+  font-size:small;
+  font-weight: 500;
+  background-color: #D9D9D9;
+  color: black;
+  border-radius: 2rem;
+  padding: 0.5rem 0rem 0.5rem 1rem;
+}
+.sort{
+  width: 45%;
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+.sorting{
+  border:3px solid #E1E1E1;
+  outline:none;
+  font-family:'Roboto';
+  font-size:small;
+  font-weight: 500;
+  background:none;
+  color: black;
+  border-radius: 2rem;
+  padding: 0.5rem 1rem 0.5rem 2rem;
+}
+
+.productsInGrid{
+  width: 100%;
+  display: flex;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+  padding-left: 1rem;
+  
+}
+.productsInView{
+  width: 100%;
+  display: flex;
+  margin-top: 2rem;
+  flex-direction: column;
+  
+}
+
+.cardStylesInGrid{
+  display: flex;
+  flex-direction: column;
+  width: 15rem;
+  height: 22rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  
+}
+.cardStylesInList{
+  display: flex;
+  width: 100%;
+  height: 20rem;
+  margin-right: 2rem;
+  align-items: center;
+  
+}
+.imgStylesGrid{
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #D4E5FF;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  position: relative;
+  
+}
+
+.imgStylesList{
+  width: 78%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #D4E5FF;
+  margin-bottom: 0.5rem;
+  margin-right: 2rem;
+  position: relative;
+}
+.prodDescGrid{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-left: 1rem;
+  
+}
+.prodDescList{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: flex-start;
+  padding-bottom: 1rem;
+}
+.cartButton{
+  display: flex;
+  align-items: center;
+  background-color: #1D7000;
+  border: none;
+  border-radius: 1.7rem;
+  color: white;
+  padding: 0.2rem 1rem 0.2rem 1rem;
+  height: 2.3rem;
+  width: 7.5rem;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.logoutButton{
+  background: none;
+  border: none;
+  outline: none ;
+  color: white;
+  font-size: medium;
+  cursor: pointer;
+  font-weight: 600;
+}
+.detailsButton{
+  display: flex;
+  align-items: center;
+  background-color: #2E0052;
+  border: none;
+  border-radius: 1.7rem;
+  color: white;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  font-weight: 500;
+  width: 6.5rem;
+  justify-content: center;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.navBarContent{
+  padding: 0.8rem 2rem 0.8rem 2rem ;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.headImgAndCart{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  align-items: center;
+}
+.searchBarSmallScreen{
+  display: none;
+}
+.saleBanner{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  height: 20rem;
+  padding-left: 5rem;
+  display: flex;
+  align-items: center;
+}
+.saleBanner h1{
+  color: #2E0052;
+  width: 50%;
+  text-align: start;
+  font-weight: bolder;
+  font-size: xxx-large;
+}
+.saleBanner>div{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+@media (max-width: 768px){
+  .navBarContent{
+    display: none;
+  }
+  .navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .searchBarSmallScreen{
+    width: 80%;
+    border: 3px solid #C8C8C8;
+    border-radius: 0.4rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    
+    padding-left: 1rem;
+  }
+  .searchBarSmallScreen>input{
+    border: none;
+  }
+  .searchBar{
+    display: none;
+  }
+  .headImgAndCart{
+    display: none;
+  }
+  .saleBanner h1{
+    color: #2E0052;
+    width: 80%;
+    text-align: start;
+    font-weight: bolder;
+    font-size: medium;
+    font-weight: 500;
+  }
+  .buyNow{
+    padding: 0.1rem 0.5rem 0.1rem 0.5rem;
+    font-size: small;
+  }
+  .saleBanner{
+    height: 8rem;
+    padding-left: 1rem;
+  }
+  .filters{
+    overflow-x: scroll;
+    width: 100%;
+  }
+  .sortAndFilter{
+    overflow-y: scroll  ;
+  }
+}

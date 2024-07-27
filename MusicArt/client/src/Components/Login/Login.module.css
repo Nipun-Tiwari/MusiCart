@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Roboto&display=swap');
+
+body{
+  font-family: 'Roboto';
+}
+
+.container{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  border: 3px solid #D9D9D9;
+  border-radius: 23.2px;
+  width: 30%;
+  
+}
+.inputContainer{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.buttonStyles{
+  width: 85%;
+  background-color: #2E0052;
+  border-radius: 8px;
+  color: white;
+  padding: 0.6rem 0 0.6rem 0;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: medium;
+}
+.notLoggedInButton{
+  width: 30%;
+  background:none;
+  border: 2px solid #BDBDBD;
+  border-radius: 8px;
+  color: black;
+  padding: 0.6rem 0 0.6rem 0;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: medium;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+.heading{
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto';
+  color: #2E0052;
+  font-weight: 500;
+}
+.newToMusic{
+  margin:0 1.5rem 0 1.5rem;
+}
+.wideLine {
+  height: 2px;
+  width: 9rem;
+  background-color: #BDBDBD;
+  border: none;
+}
+
+.welcomeText{
+  display: none;
+}
+.signInText{
+  align-self: flex-start;
+  padding-left: 2.2rem;
+  font-weight: 500;
+}
+.alreadyCustomer{
+  
+  display: none;
+}
+
+.mainBody{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+@media (max-width: 768px){
+  .heading{
+    background-color: #2E0052;
+    width: 100%;
+    height: 8%;
+    display: flex;
+    padding-left: 2rem;
+    align-items: center;
+    color: white;
+    font-size: small;
+    font-weight: 400;
+  }
+  .form{
+    width: 80%;
+  }
+  .notLoggedInButton{
+    width: 80%;
+  }
+  .wideLine{
+    width: 5rem;
+  }
+  .newToMusic{
+    margin:0 1.5rem 0 1rem;
+  }
+  .wideLine{
+    width: 4rem;
+  }
+  .welcomeText {
+    display: block;
+    font-weight: 500;
+    width: 80%;
+    text-align: start;
+  }
+  .inputContainer>h1{
+    font-size: medium;
+    font-weight: 500;
+    padding-left: 1.5rem;
+  }
+  .alreadyCustomer{
+    font-weight: 400;
+    display: inline-block;
+  }
+}
